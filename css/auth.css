@@ -1,0 +1,66 @@
+.main{
+    display: flex;
+    height: 100%;
+}
+.img-section{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40%;
+    object-position: center;
+    background-image: url(https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
+.text-section{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+.auth-type {
+    padding: 8px 0;  
+    display: flex;  
+}
+
+.auth-type span{
+    padding: 8px 32px;
+    color: var(--inactive-color);
+    font-weight: bold;
+    border-bottom:2px solid var(--inactive-color);
+    margin: 0;
+}
+
+.selected-type{
+    color: var(--text-color) !important;
+    border-bottom: 2px solid var(--text-color) !important; 
+}
+
+
+.auth-btn{
+    color: white;
+    background-color: var(--text-color);
+    padding: 8px;
+    border-radius: 4px;
+    width: 40%;
+    text-align: center;
+}
+
+.auth-input{
+    border: 1px solid var(--inactive-color);
+    background-color: none;
+    padding: 8px;
+    border-radius: 2px;
+}
+
+input:focus-visible{
+    border: 1px solid var(--text-color) !important; 
+    border-radius: 2px !important;
+}

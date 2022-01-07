@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+:root{
+	--primary-color: #1c70bb;
+	--secondary-color:#33A7E2;
+	--tertiary-color:#189877;
+	--text-color:#1C2D49;
+	--highlighted-color:#ff8700;
+	--main-font: "Inter",Sans-serrif;
+	--inactive-color:#758095;
+    --background-color:#F9F9F9;
+}

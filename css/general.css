@@ -1,0 +1,57 @@
+body{
+    background-color: var(--background-color);
+    font-family: var(--main-font);
+    color: var(--text-color);
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration:none;
+    color: var(--text-color);
+ }
+
+
+.v-space-8{
+    height:8px;
+}
+.v-space-16{
+    height:16px;
+}
+
+.v-space-24{
+    height:24px;
+}
+
+.inactive-text{
+    color: var(--inactive-color);
+}
+
+.very-small-text{
+    font-size: 12px;
+}
+
+.small-text{
+    font-size: 14px;
+}
+
+.normal-text{
+    font-size: 16px;
+}
+
+.big-text{
+    font-size: 20px;
+}
+
+.very-big-text{
+    font-size: 24px;
+}
+
+.extra-big-text{
+    font-size: 32px;
+}
+.bold-text{
+    font-weight: bold;
+}
+
+       

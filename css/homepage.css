@@ -1,0 +1,139 @@
+.main-section{
+    height: 90vh;
+    background-image: url('https://images.pexels.com/photos/280229/pexels-photo-280229.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-position-y: center;
+
+}
+
+.search{
+    height: 15vh;
+    width: 50%;
+    position: absolute;
+    bottom: 8%;
+    left: 10%;
+}
+
+.search-types{
+    display: flex;
+}
+
+.search-type{
+    background-color: var(--background-color);
+    opacity: 0.8;
+    padding: 8px 32px;
+    border-right: 1px solid var(--inactive-color);
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.search-options{
+    background-color: white;
+    height: inherit;
+    box-shadow: rgb(0 0 0 / 20%) 0px -2px 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+
+}
+
+.search-current-selected{
+    border-bottom: 2px solid var(--highlighted-color);
+    color: var(--highlighted-color);
+}
+
+.search-options label{
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--tertiary-color);
+}
+
+.search-options select{
+     border: none;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 16px;
+    padding: 0;
+}
+
+.search-options form{
+    margin: 0;
+}
+
+.search-icon{
+    background-color: var(--primary-color);
+    padding: 16px;
+    border-radius: 8px;
+    color: var(--background-color);
+}
+
+.grid{
+    display: grid;
+	grid-template-columns:auto auto auto auto;
+    width: 1140px;
+    margin: auto;
+}
+
+.grid-item{
+	height: 48vh;
+	background-color: white;
+	margin:10px;
+	border-radius: 6px;
+	overflow: hidden;
+	cursor: pointer; box-shadow: rgb(0 0 0 / 20%) 0px -2px 6px;
+    
+}
+
+.grid-img{
+	position: relative;
+	height: 56%;
+	overflow: hidden;
+}
+
+.grid-text{
+   padding: 16px;
+}
+
+.grid-item .grid-img img{
+    position: absolute;
+    transform: scale(1.11) translate(-45%,-45%);
+    top: calc(50% + 1px);
+    left: calc(50% + 1px);
+    max-width: 500px;
+}
+
+.grid-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.primary-grid-subheading{
+	font-size: 14px;
+	color: var(--inactive-color);
+    line-height: 0;
+}
+
+
+
+.featured{
+    margin-top: 12vh;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.grid-icon{
+    background: var(--tertiary-color);
+    padding: 8px;
+    border-radius: 8px;
+    color: white;
+}
+
+.rooms-desc{
+    display: flex;
+    justify-content: space-between;
+}
